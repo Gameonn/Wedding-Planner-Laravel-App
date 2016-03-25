@@ -1,0 +1,160 @@
+[30-Oct-2015 06:53:23 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 152
+[30-Oct-2015 06:54:19 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 152
+[30-Oct-2015 10:19:37 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Object of class stdClass could not be converted to string' in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php:196
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home3/codebrew...', 196, Array)
+#1 /home3/codebrew/public_html/projects/whatashaadi/app/Users.php(196): array_diff(Array, Array)
+#2 /home3/codebrew/public_html/projects/whatashaadi/app/Users.php(493): App\Users::handleMultipleImageEdit('2', Array, '21')
+#3 /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php(32): App\Users::vendorEditProfile(Array)
+#4 [internal function]: App\Http\Controllers\ApiController->vendorEditProfile()
+#5 /home3/codebrew/public_html/projects/whatashaadi/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(246): call_user_func_array(Array, Array)
+#6 /home3/codebrew/public_html/projects/whatashaadi/vendor/laravel/framework/src/Illuminate/Ro in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 196
+[30-Oct-2015 10:19:37 UTC] PHP Fatal error:  Object of class stdClass could not be converted to string in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 196
+[30-Oct-2015 10:24:43 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Object of class stdClass could not be converted to string' in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php:199
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home3/codebrew...', 199, Array)
+#1 /home3/codebrew/public_html/projects/whatashaadi/app/Users.php(199): array_diff(Array, Array)
+#2 /home3/codebrew/public_html/projects/whatashaadi/app/Users.php(496): App\Users::handleMultipleImageEdit('2', Array, '21')
+#3 /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php(32): App\Users::vendorEditProfile(Array)
+#4 [internal function]: App\Http\Controllers\ApiController->vendorEditProfile()
+#5 /home3/codebrew/public_html/projects/whatashaadi/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(246): call_user_func_array(Array, Array)
+#6 /home3/codebrew/public_html/projects/whatashaadi/vendor/laravel/framework/src/Illuminate/Ro in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 199
+[30-Oct-2015 10:24:43 UTC] PHP Fatal error:  Object of class stdClass could not be converted to string in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 199
+[02-Nov-2015 07:34:43 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Business' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 105
+[02-Nov-2015 07:35:10 UTC] PHP Fatal error:  Class 'App\Validator' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Business.php on line 17
+[02-Nov-2015 07:58:18 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$searchBusinessTypeRules in /home3/codebrew/public_html/projects/whatashaadi/app/Business.php on line 48
+[03-Nov-2015 05:42:01 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 56
+[03-Nov-2015 05:43:14 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 56
+[03-Nov-2015 06:08:43 UTC] PHP Fatal error:  Class 'App\Http\Controllers\DashboardVendor' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 125
+[03-Nov-2015 06:09:17 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$phoneCallHitRules in /home3/codebrew/public_html/projects/whatashaadi/app/DashboardVendor.php on line 30
+[03-Nov-2015 06:51:38 UTC] PHP Fatal error:  Access to undeclared static property: App\DashboardVendor::$chatHitRules in /home3/codebrew/public_html/projects/whatashaadi/app/DashboardVendor.php on line 72
+[04-Nov-2015 10:35:00 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 159
+[04-Nov-2015 10:41:13 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 159
+[04-Nov-2015 10:46:38 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 159
+[04-Nov-2015 10:51:01 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 159
+[04-Nov-2015 10:54:11 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 159
+[04-Nov-2015 10:57:54 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 159
+[04-Nov-2015 10:59:00 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 159
+[04-Nov-2015 11:23:29 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 56
+[07-Nov-2015 10:34:43 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 56
+[07-Nov-2015 11:16:41 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 56
+[07-Nov-2015 11:21:26 UTC] PHP Fatal error:  Class 'App\Http\Controllers\VendonPortfolioImages' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 107
+[07-Nov-2015 11:22:44 UTC] PHP Fatal error:  Class 'App\Validator' not found in /home3/codebrew/public_html/projects/whatashaadi/app/VendorPortfolioImages.php on line 21
+[09-Nov-2015 07:00:08 UTC] PHP Fatal error:  Class 'App\Users' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 25
+[09-Nov-2015 10:44:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home3/codebrew/public_html/projects/whatashaadi/app/DashboardVendor.php on line 246
+[09-Nov-2015 12:25:30 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 59
+[09-Nov-2015 12:27:26 UTC] PHP Fatal error:  Class 'App\vendorReviews' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 164
+[09-Nov-2015 12:31:03 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$requestFeedbackRules in /home3/codebrew/public_html/projects/whatashaadi/app/VendorReviews.php on line 30
+[10-Nov-2015 09:26:40 UTC] PHP Fatal error:  Class 'App\DashboardVendor' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 157
+[10-Nov-2015 09:27:14 UTC] PHP Fatal error:  Class 'App\DashboardVendor' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 157
+[10-Nov-2015 09:27:43 UTC] PHP Fatal error:  Class 'App\DashboardVendor' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 157
+[10-Nov-2015 09:28:00 UTC] PHP Fatal error:  Class 'App\DashboardVendor' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 157
+[10-Nov-2015 09:28:42 UTC] PHP Fatal error:  Class 'App\DashboardVendor' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 157
+[10-Nov-2015 09:29:28 UTC] PHP Fatal error:  Class 'App\DashboardVendor' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 157
+[10-Nov-2015 10:35:28 UTC] PHP Fatal error:  Class 'App\DashboardVendor' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 157
+[12-Nov-2015 13:54:31 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 70
+[13-Nov-2015 07:43:56 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 75
+[13-Nov-2015 09:00:48 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$vendorLoginFbRules in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 623
+[13-Nov-2015 09:03:24 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 195
+[13-Nov-2015 09:08:41 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 195
+[13-Nov-2015 09:10:25 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 195
+[13-Nov-2015 09:10:44 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 195
+[13-Nov-2015 09:18:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 767
+[13-Nov-2015 12:54:22 UTC] PHP Fatal error:  Access to undeclared static property: App\VendorReviews::$access_token in /home3/codebrew/public_html/projects/whatashaadi/app/VendorReviews.php on line 167
+[13-Nov-2015 13:17:35 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$viewWeddingProfileByIdRules in /home3/codebrew/public_html/projects/whatashaadi/app/Wedding.php on line 30
+[17-Nov-2015 05:13:37 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$vendorLoginFbCheckRules in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 657
+[23-Nov-2015 11:26:35 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 87
+[24-Nov-2015 06:25:16 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 90
+[24-Nov-2015 06:28:45 UTC] PHP Parse error:  syntax error, unexpected ''cr' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 738
+[24-Nov-2015 06:42:33 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ApiController::makeFavoriteWedding() in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 306
+[24-Nov-2015 06:43:15 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ApiController::makeFavoriteWedding() in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 306
+[24-Nov-2015 06:43:27 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ApiController::makeFavoriteWedding() in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 306
+[24-Nov-2015 06:44:46 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Collaborators' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 323
+[24-Nov-2015 07:09:47 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 96
+[24-Nov-2015 10:03:10 UTC] PHP Fatal error:  Class 'App\Collaborators' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 1816
+[24-Nov-2015 10:36:10 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$createCollaboratorGroupRules in /home3/codebrew/public_html/projects/whatashaadi/app/Collaborators.php on line 58
+[24-Nov-2015 10:37:56 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$createCollaboratorGroupRules in /home3/codebrew/public_html/projects/whatashaadi/app/Collaborators.php on line 64
+[24-Nov-2015 12:02:15 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 96
+[24-Nov-2015 12:02:52 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 96
+[24-Nov-2015 12:03:09 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 96
+[24-Nov-2015 13:09:52 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$removeCollaboratorGroupRules in /home3/codebrew/public_html/projects/whatashaadi/app/Collaborators.php on line 172
+[24-Nov-2015 13:24:26 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 96
+[25-Nov-2015 06:32:45 UTC] PHP Fatal error:  Class 'App\Wedding' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 275
+[25-Nov-2015 07:13:13 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home3/codebrew/public_html/projects/whatashaadi/app/Wedding.php on line 145
+[25-Nov-2015 11:48:31 UTC] PHP Fatal error:  Class 'App\Users' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 270
+[25-Nov-2015 13:13:21 UTC] PHP Fatal error:  Class 'App\Users' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 270
+[26-Nov-2015 10:32:56 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 2072
+[26-Nov-2015 10:36:01 UTC] PHP Fatal error:  Class 'App\Users' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 234
+[26-Nov-2015 10:36:51 UTC] PHP Fatal error:  Class 'App\Users' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Wedding.php on line 225
+[26-Nov-2015 11:55:36 UTC] PHP Fatal error:  Access to undeclared static property: App\Users::$createContractRules in /home3/codebrew/public_html/projects/whatashaadi/app/Contract.php on line 25
+[26-Nov-2015 13:13:10 UTC] PHP Fatal error:  Access to undeclared static property: App\Contract::$changeContractStatusRules in /home3/codebrew/public_html/projects/whatashaadi/app/Contract.php on line 78
+[26-Nov-2015 13:23:10 UTC] PHP Fatal error:  Access to undeclared static property: App\Contract::$deleteContractRules in /home3/codebrew/public_html/projects/whatashaadi/app/Contract.php on line 123
+[28-Nov-2015 06:22:50 UTC] PHP Fatal error:  Class 'App\Wedding' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 283
+[28-Nov-2015 06:39:05 UTC] PHP Parse error:  syntax error, unexpected 'writeReviewNotification' (T_STRING), expecting variable (T_VARIABLE) in /home3/codebrew/public_html/projects/whatashaadi/app/Notifications.php on line 48
+[28-Nov-2015 06:42:25 UTC] PHP Parse error:  syntax error, unexpected 'writeReviewNotification' (T_STRING), expecting variable (T_VARIABLE) in /home3/codebrew/public_html/projects/whatashaadi/app/Notifications.php on line 48
+[28-Nov-2015 06:43:53 UTC] PHP Parse error:  syntax error, unexpected 'writeReviewNotification' (T_STRING), expecting variable (T_VARIABLE) in /home3/codebrew/public_html/projects/whatashaadi/app/Notifications.php on line 48
+[28-Nov-2015 06:45:49 UTC] PHP Parse error:  syntax error, unexpected 'writeReviewNotification' (T_STRING), expecting variable (T_VARIABLE) in /home3/codebrew/public_html/projects/whatashaadi/app/Notifications.php on line 48
+[28-Nov-2015 06:49:18 UTC] PHP Parse error:  syntax error, unexpected 'writeReviewNotification' (T_STRING), expecting variable (T_VARIABLE) in /home3/codebrew/public_html/projects/whatashaadi/app/Notifications.php on line 48
+[28-Nov-2015 06:51:33 UTC] PHP Parse error:  syntax error, unexpected 'writeReviewNotification' (T_STRING), expecting variable (T_VARIABLE) in /home3/codebrew/public_html/projects/whatashaadi/app/Notifications.php on line 50
+[01-Dec-2015 06:02:35 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 205
+[01-Dec-2015 06:06:53 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 361
+[01-Dec-2015 06:07:35 UTC] PHP Parse error:  syntax error, unexpected '$chat_id' (T_VARIABLE) in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 50
+[01-Dec-2015 06:08:19 UTC] PHP Fatal error:  Class 'App\Validator' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 24
+[02-Dec-2015 06:06:25 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 360
+[02-Dec-2015 06:06:25 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 360
+[02-Dec-2015 09:45:39 UTC] PHP Fatal error:  Cannot redeclare App\Chat::getCurrentMessages() in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 278
+[02-Dec-2015 09:46:35 UTC] PHP Fatal error:  Class 'App\ApiModel' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 280
+[03-Dec-2015 12:10:40 UTC] PHP Fatal error:  Access to undeclared static property: App\Collaborators::$access_token in /home3/codebrew/public_html/projects/whatashaadi/app/Collaborators.php on line 123
+[03-Dec-2015 12:43:51 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home3/codebrew/public_html/projects/whatashaadi/app/Collaborators.php on line 146
+[04-Dec-2015 05:28:02 UTC] PHP Fatal error:  Class 'App\Users' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 354
+[04-Dec-2015 05:28:02 UTC] PHP Fatal error:  Class 'App\Users' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 414
+[04-Dec-2015 05:28:02 UTC] PHP Fatal error:  Class 'App\Users' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 414
+[04-Dec-2015 05:28:03 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 1070
+[04-Dec-2015 06:26:24 UTC] PHP Fatal error:  Access to undeclared static property: App\Collaborators::$addMembersRules in /home3/codebrew/public_html/projects/whatashaadi/app/Collaborators.php on line 232
+[04-Dec-2015 10:17:34 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 382
+[05-Dec-2015 09:41:08 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 382
+[05-Dec-2015 09:41:08 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 382
+[05-Dec-2015 09:41:08 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 382
+[05-Dec-2015 09:41:09 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 382
+[05-Dec-2015 09:41:09 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 382
+[05-Dec-2015 09:44:39 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 382
+[07-Dec-2015 05:37:00 UTC] PHP Fatal error:  Class 'App\Http\Controllers\AdminChat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/AdminController.php on line 29
+[07-Dec-2015 05:37:39 UTC] PHP Fatal error:  Class 'AdminChat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/AdminController.php on line 30
+[07-Dec-2015 05:37:49 UTC] PHP Fatal error:  Class 'AdminChat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/AdminController.php on line 30
+[07-Dec-2015 05:43:24 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home3/codebrew/public_html/projects/whatashaadi/app/AdminChat.php on line 50
+[07-Dec-2015 07:25:49 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 112
+[07-Dec-2015 09:41:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 501
+[07-Dec-2015 09:51:28 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 387
+[07-Dec-2015 09:51:28 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 499
+[07-Dec-2015 09:54:12 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 387
+[07-Dec-2015 12:02:32 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Admin' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/AdminController.php on line 26
+[08-Dec-2015 06:06:43 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 387
+[08-Dec-2015 06:48:27 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 387
+[08-Dec-2015 06:59:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 81
+[08-Dec-2015 07:13:00 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 397
+[08-Dec-2015 07:13:09 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ']' in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 200
+[08-Dec-2015 07:17:16 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 387
+[08-Dec-2015 09:24:26 UTC] PHP Fatal error:  Class 'App\DateTime' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 122
+[08-Dec-2015 09:25:05 UTC] PHP Fatal error:  Class 'App\Chat' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 402
+[08-Dec-2015 09:25:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 199
+[08-Dec-2015 09:37:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/codebrew/public_html/projects/whatashaadi/app/Chat.php on line 508
+[08-Dec-2015 11:53:03 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Users' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/AdminController.php on line 33
+[08-Dec-2015 12:04:32 UTC] PHP Parse error:  syntax error, unexpected '[' in /home3/codebrew/public_html/projects/whatashaadi/storage/framework/views/6a6060e77cd6e55bb0850df2867acbba on line 32
+[09-Dec-2015 11:21:53 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 113
+[09-Dec-2015 12:10:50 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 113
+[09-Dec-2015 12:44:30 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home3/codebrew/public_html/projects/whatashaadi/app/Users.php on line 565
+[10-Dec-2015 10:18:46 UTC] PHP Fatal error:  Class 'TokenMismatchException' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Middleware/VerifyCsrf.php on line 113
+[10-Dec-2015 10:22:52 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Notifications' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/ApiController.php on line 409
+[11-Dec-2015 12:39:10 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 209
+[11-Dec-2015 12:39:56 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 210
+[11-Dec-2015 12:41:03 UTC] PHP Fatal error:  Call to a member function where() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 212
+[11-Dec-2015 15:42:21 UTC] PHP Fatal error:  Cannot redeclare App\Admin::vendorDetailsEditCode() in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 232
+[11-Dec-2015 15:42:32 UTC] PHP Fatal error:  Cannot redeclare App\Admin::vendorDetailsEditCode() in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 232
+[11-Dec-2015 15:53:30 UTC] PHP Fatal error:  Class 'App\Carbon' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 235
+[11-Dec-2015 15:54:07 UTC] PHP Fatal error:  Class 'Carbon' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 236
+[14-Dec-2015 07:16:09 UTC] PHP Fatal error:  Class 'App\Input' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 261
+[14-Dec-2015 07:17:08 UTC] PHP Fatal error:  Call to a member function isValid() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 266
+[14-Dec-2015 07:18:44 UTC] PHP Fatal error:  Call to a member function getClientOriginalExtension() on a non-object in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 264
+[14-Dec-2015 07:21:56 UTC] PHP Fatal error:  Cannot use object of type Symfony\Component\HttpFoundation\File\UploadedFile as array in /home3/codebrew/public_html/projects/whatashaadi/app/Admin.php on line 262
+[14-Dec-2015 12:19:18 UTC] PHP Fatal error:  Class 'App\Http\Controllers\AdminBusinesses' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/AdminController.php on line 122
+[14-Dec-2015 12:19:39 UTC] PHP Fatal error:  Class 'App\AdminBusinesses' not found in /home3/codebrew/public_html/projects/whatashaadi/app/Http/Controllers/AdminController.php on line 123

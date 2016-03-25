@@ -1,0 +1,155 @@
+.clearfix::after
+{
+    content:":)";
+    clear:both;
+    display:block;
+    visibility:hidden;
+    height:0;
+}
+
+.select2-dropdown {
+    z-index: 3000 !important;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.my-img-box, .my-img-box-3 {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.my-img-box-4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.my-img-box-2 {
+	width: 100%;
+	height: 300px;	
+	overflow: hidden;
+}
+
+.my-img-box-2 img {
+	width: 100%;
+}
+
+.my-img-box-3 {
+    width: 100px;
+    height: auto;
+    border-radius: 0;    
+}
+
+.my-btn {
+	width: 100%;
+}
+
+.my-btn-2 {
+    margin: 8px 0;
+}
+
+.upload-button-box {
+	margin: 20px 0 0 0;
+}
+
+.my-file-chooser {
+    margin: 30px auto;
+}
+
+.light-box-img-cont {
+	float: left;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.light-box-img-cont img {
+	min-width: 100px;
+	min-height: 100px;
+}
+
+.my-img-del-btn {
+	position: absolute;
+    top: 5px;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+}
+
+.my-crousel {
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel-img-box {
+    text-align: center;
+}
+
+.my-header-dropdown-li {
+    min-height: 40px;
+}
+
+.chooser-image-box {
+    text-align: center;
+    margin: 0 0 28px 0;
+}
+
+.chooser-image-box img {
+    border-radius: 50px;
+    width: 200px;
+}
+
+.my-file-chooser-2 {
+    margin: 0 auto;
+}
+
+.chat-image-box {    
+    padding: 12px;    
+    text-align: right;
+    border: 1px solid #fff;
+}
+
+.chat-image-box img {
+    /*width: 300px;    */
+    height: 200px;
+}
+
+.my-label {
+    margin: 0 4px 0 0;
+}
+
+.my-delete-btn {
+    height: 15px;
+    width: 15px;
+    font-size: 8px;
+    padding: 0;
+    margin: 3px -4px 3px 4px;
+}
+
+.my-chat-widget {
+
+}
+
+.my-chat-widget img {
+    max-width: 100%;
+    height: 200px; 
+}
+
+.image-cont {
+    text-align: center;
+}
+
+.image-cont img {
+    max-width: 100%;
+}
+
+.my-cont {
+    margin: 20px 10px;
+}
